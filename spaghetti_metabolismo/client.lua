@@ -43,8 +43,6 @@ Citizen.CreateThread(function()
         else
     		food = food - (0.5 + cold)
 			water = water - (0.5 + hot)
-			local test = -(0.5 - cold)
-			print(test)
 		end
 		Citizen.Wait(40000)
 		if food < 20 or water < 20 then
